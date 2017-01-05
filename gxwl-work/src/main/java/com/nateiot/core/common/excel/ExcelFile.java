@@ -9,6 +9,30 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @author Will WM. Zhang
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  * 
  */
 public class ExcelFile implements Serializable {
