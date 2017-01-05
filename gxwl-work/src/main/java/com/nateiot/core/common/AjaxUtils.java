@@ -13,4 +13,9 @@ public class AjaxUtils {
 		return requestedWith != null ? "XMLHttpRequest".equals(requestedWith) : false;
 	}
 
+	
+	
+	
+	
+	
 }

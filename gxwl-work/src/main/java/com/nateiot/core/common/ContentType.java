@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * @author zhangweiming
- *
+ *aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
  */
 public enum ContentType {
 
@@ -32,7 +32,7 @@ public enum ContentType {
 	private ContentType(String value) {
 		this.value = value;
 	}
-
+//8888888888888888888888888888888888888888888888888888888888888888888888888
 	@Override
 	public String toString() {
 		return StringUtils.lowerCase(value);
