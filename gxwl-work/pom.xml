@@ -1,16 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
-	
   <modelVersion>4.0.0</modelVersion>
-  
-  
-  <groupId>com.nateiot</groupId>
-  
-  
-  <artifactId>work</artifactId>
+  <groupId>com.nateiot.gxwl</groupId>
+  <artifactId>gxwl-work</artifactId>
   <version>1.0</version>
-  <name>work</name>
+  <name>gxwl-work</name>
   <url>http://maven.apache.org</url>
   
   	<repositories>
@@ -25,17 +19,9 @@
 	     	 <url>http://www.ibiblio.org/maven/</url>
 	    </repository>
   	</repositories>
-  
-  
-  
-  
-  
-  
-  	
 	<properties>
 		<org.springframework-version>3.2.6.RELEASE</org.springframework-version>
 	</properties>
-  
   
 	<build>
 	    <plugins>
@@ -49,11 +35,6 @@
 	                <target>1.7</target>
 	            </configuration>
 	        </plugin>
-	        
-			
-			
-			
-			
 	        <plugin>
 	        	<groupId>org.apache.maven.plugins</groupId>
 	        	<artifactId>maven-jar-plugin</artifactId>
@@ -67,11 +48,6 @@
 	          		</archive>
 	        	</configuration>
 	        </plugin>
-	      
-		  
-		  
-		  
-		  
 	        <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -94,10 +70,6 @@
 			</plugin>
 	    </plugins>
   	</build>
-  
-
-
-
 
 	<dependencies>
 		<dependency>
@@ -337,11 +309,6 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.9.2</version>
 		</dependency>
-		
-		
-		
-		
-		
 		
 	</dependencies>
 	
