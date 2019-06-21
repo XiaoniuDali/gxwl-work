@@ -33,7 +33,7 @@ import com.nateiot.core.service.BaseService;
 public class BaseServiceImpl<D extends BaseDao<E, ID>, E, ID extends Serializable>
 		implements BaseService<D, E, ID> {
 
-	private final D d;
+	protected final D d;
 
 	protected Map<String, Object> resultMap;
 
